@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyEvent</string>
+    <string name="txtTitle">Ticket Value</string>
+    <string name="txtTickets">Number of Tickets</string>
+    <string name="prompt">Select Group</string>
+    <string name="description">Concert Image</string>
+    <string name="btnCost">Calculate</string>
+    <string-array name="txtGroup">
+        <item>Van Halen</item>
+        <item>Led Zeppelin</item>
+        <item>Linkin Park</item>
+        <item>Drowning Pool</item>
+    </string-array>
+</resources>
