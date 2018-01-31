@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9A9A9"
+    tools:context="com.example.arianad.businesscard.Business"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Justine Oliver, Undergrad"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteY="36dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_above="@+id/txtItem1"
+        android:layout_alignLeft="@+id/txtItem1"
+        android:layout_alignStart="@+id/txtItem1"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/txtItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtItem1"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteY="75dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_marginBottom="27dp"
+        android:layout_above="@+id/txtItem3"
+        android:layout_alignLeft="@+id/txtItem3"
+        android:layout_alignStart="@+id/txtItem3" />
+
+    <TextView
+        android:id="@+id/txtItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtItem1"
+        android:layout_alignTop="@+id/txtItem1"
+        android:text="@string/txtItem2"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/txtItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jko15@my.fsu.edu"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:layout_editor_absoluteX="18dp"
+        android:layout_above="@+id/txtItem4"
+        android:layout_alignLeft="@+id/txtItem4"
+        android:layout_alignStart="@+id/txtItem4"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/txtItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtItem4"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteY="195dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_above="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="335dp"
+        android:layout_height="255dp"
+        app:srcCompat="@drawable/justine"
+        tools:layout_editor_absoluteY="240dp"
+        tools:layout_editor_absoluteX="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+
+
+</RelativeLayout>

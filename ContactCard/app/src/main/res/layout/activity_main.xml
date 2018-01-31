@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9A9A9"
+    tools:context="com.example.arianad.businesscard.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/btnDetails1"
+        android:layout_width="201dp"
+        android:layout_height="60dp"
+        android:text="Guillaume,Claudeen"
+        tools:layout_editor_absoluteY="67dp"
+        tools:layout_editor_absoluteX="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnDetails2"
+        android:layout_alignEnd="@+id/btnDetails2"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:id="@+id/btnDetails2"
+        android:layout_width="206dp"
+        android:layout_height="58dp"
+        android:text="Oliver,Justine"
+        tools:layout_editor_absoluteY="215dp"
+        tools:layout_editor_absoluteX="89dp"
+        android:layout_above="@+id/btnDetails3"
+        android:layout_alignRight="@+id/btnDetails3"
+        android:layout_alignEnd="@+id/btnDetails3"
+        android:layout_marginBottom="95dp" />
+
+    <Button
+        android:id="@+id/btnDetails3"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:text="Fredrick,Erica"
+        tools:layout_editor_absoluteY="368dp"
+        tools:layout_editor_absoluteX="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp" />
+
+</RelativeLayout>

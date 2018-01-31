@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="txtTitle">Claudeen Guillaume, Undergrad</string>
+    <string name="description">Profile Image</string>
+    <string name="btnDetails">Details</string>
+    <string name="txtContact">Contact</string>
+    <string name="txtItem1">Florida State University</string>
+    <string name="txtItem2">iSchool</string>
+    <string name="txtItem3">cng13g@my.fsu.edu</string>
+    <string name="txtItem4">(850)644-0539</string>
+    <string name="txtInterests">Interests</string>
+    <string name="txtInfo">Mobile Applications Development, Programming, Web Applications, Database Design, .NET, PHP, MySQL, Web Programming</string>
+</resources>
