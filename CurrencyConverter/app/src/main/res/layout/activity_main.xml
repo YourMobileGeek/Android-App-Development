@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.arianad.currencyconverter.MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/green"
+        android:text="@string/txtTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/txtCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:gravity="center_horizontal|clip_horizontal"
+        android:inputType="number"
+        android:hint="U.S. Dollars"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:visibility="visible"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/txtCurrency"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/conEuros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:defaultFocusHighlightEnabled="true"
+            android:text="US to Euros"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/conPesos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:layout_weight="1"
+            android:text="US to Pesos"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/conCanada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:layout_weight="1"
+            android:text="US to Canadian"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/radioGroup"
+        android:layout_alignLeft="@+id/radioGroup"
+        android:layout_alignRight="@+id/radioGroup"
+        android:layout_alignStart="@+id/radioGroup"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="54dp"
+        android:gravity="center_horizontal|center|clip_horizontal"
+        android:text="Convert"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:text="" />
+
+
+</RelativeLayout>

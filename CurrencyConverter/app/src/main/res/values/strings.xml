@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="txtTitle">Convert Currency</string>
+    <string name="txtCurrency">U.S. Dollars</string>
+    <string name="conEuros">US to Euros</string>
+    <string name="conPesos">US to Pesos</string>
+    <string name="conCanada">US to Canadian</string>
+</resources>

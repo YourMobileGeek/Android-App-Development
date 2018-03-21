@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Music</string>
+    <string name="txtSplash">Sounds of 2018</string>
+    <string name="Uchance">Chance The Rapper Image</string>
+    <string name="Dsza">Sza Image</string>
+    <string name="Pkendrick">Kendrick Image</string>
+    <string name="btnChance">Play Chance Song</string>
+    <string name="btnSza">Play Sza Song</string>
+    <string name="btnKendrick">Play Kendrick Song</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Play Music</string>
+</resources>
