@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.example.arianad.mortgageinterestcalculator.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Mortgage Interest"
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/txtYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/txtLoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtYears"
+        android:layout_alignStart="@+id/txtYears"
+        android:layout_below="@+id/txtYears"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/hint2"
+        android:inputType="numberDecimal"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtInterest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtLoan"
+        android:layout_alignStart="@+id/txtLoan"
+        android:layout_below="@+id/txtLoan"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/hint3"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtInterest"
+        android:layout_marginTop="25dp"
+        android:text="@string/btnPayment"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/imgOpening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTitle"
+        android:layout_alignStart="@+id/txtTitle"
+        android:layout_below="@+id/btnPayment"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/imgDescription"
+        android:src="@drawable/house" />
+
+</RelativeLayout>
