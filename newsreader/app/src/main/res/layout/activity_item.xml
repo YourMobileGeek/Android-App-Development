@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uses scroll view to make sure user can scroll if item is to long to fit on screen -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#42f4ce"
+    tools:context="com.example.arianad.newsreader.ItemActivity">
+
+    <!-- Uses linear layout with vertical orientation to display four TextView widgets -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            android:text="Item title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="#00cc00" />
+
+        <TextView
+            android:id="@+id/pubDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:text="Published: Sun 19 Mar 2017" />
+        
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            android:text="Item description"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/linkTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:text="Read more..."
+            android:textColor="#00F"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
